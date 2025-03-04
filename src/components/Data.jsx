@@ -1,10 +1,4 @@
-import "./App.css";
-import data from "./assets/data.json";
-import Header from "./components/Header";
-
-// console.log(data);
-
-const App = () => {
+const Data = () => {
   const tabFromData = data.map((elem, index) => {
     // console.log(elem);
     const allImages = elem.images;
@@ -25,13 +19,5 @@ const App = () => {
   });
 
   // console.log(tabFromData);
-  return (
-    <>
-      <div className="container">
-        <Header />,<div>{tabFromData}</div>
-      </div>
-    </>
-  );
 };
-
-export default App;
+export default Data;
