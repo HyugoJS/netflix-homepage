@@ -34,7 +34,7 @@ h1 {
   margin-bottom: 10px;
 }
 .carrousel-img {
-  background-color: blue;
+  /* background-color: blue; */
   display: flex;
   overflow: scroll;
   height: 150px;
