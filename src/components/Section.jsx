@@ -1,4 +1,5 @@
-const Data = () => {
+import data from "../assets/data.json";
+const Section = () => {
   const tabFromData = data.map((elem, index) => {
     // console.log(elem);
     const allImages = elem.images;
@@ -17,7 +18,7 @@ const Data = () => {
       </>
     );
   });
-
-  // console.log(tabFromData);
+  return tabFromData;
 };
-export default Data;
+
+export default Section;

@@ -42,3 +42,6 @@ h1 {
 .movie-class {
   margin: 40px 0px;
 }
+.carrousel-img::-webkit-scrollbar {
+  display: none;
+}
